@@ -1,0 +1,14 @@
+# 忽略数据文件
+data/
+pykt-toolkit/data/
+
+# 忽略模型和缓存
+saved_model/
+*.pkl
+*.ckpt
+__pycache__/
+*.pyc
+
+# 忽略日志
+train_log.txt
+training_curves.png
